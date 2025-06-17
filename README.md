@@ -14,3 +14,5 @@ Principais insights:
 Próximos passos:
   - O dataset traz muitas informações e permite uma amplitude de análise muito grande como, por exemplo, a análise do nível de perigo de cada rodovia.
   - A biblioteca folium pode ser substituida quando na aplicação Streamlit. Usando st.map no lugar.
+
+Disponível em: https://exefinal.streamlit.app
