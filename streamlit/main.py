@@ -77,16 +77,11 @@ def carregar_dados():
 
 
 
-st.sidebar.title("Configurações")
+st.sidebar.title("Acidentes em BRs")
 
 opcao = st.sidebar.selectbox(
     'Escolha uma opção:',
     ['Qual o período do dia com mais acidentes?', 'Qual a hora com mais acidentes?', 'Qual o dia com mais acidentes?', 'Mortes por Condição Meteorológicas', 'Top 5 Causas de Acidente', 'Top 5 Tipos de Acidente', 'Mapa']
-    )
-
-valor = st.sidebar.slider(
-    'Selecione um valor:',
-    0, 100, 50
     )
 
 df = carregar_dados()
